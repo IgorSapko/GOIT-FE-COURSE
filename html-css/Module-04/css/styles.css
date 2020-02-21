@@ -1,12 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-html {
-  width: 1650px;
-  height: 1850px;
-  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .clearfix::after {
@@ -39,6 +34,7 @@ li {
   font-weight: bold;
   color: #1abc9c;
 }
+
 .header-li a {
   color: #555252;
   margin-right: 50px;
@@ -71,7 +67,7 @@ li {
   content: "";
   width: 164px;
   height: 7px;
-  background-color: aqua;
+  background-color: rgb(26, 188, 156);
   margin: 0 auto;
   margin-top: 32px;
   margin-bottom: 92px;
@@ -312,4 +308,5 @@ button {
   text-transform: capitalize;
   margin-top: 19px;
   margin-bottom: 81px;
+  border-radius: 3px;
 }

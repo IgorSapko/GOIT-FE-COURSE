@@ -49,7 +49,7 @@ li {
   float: right;
   margin-top: 42px;
 }
-/* background-color: burlywood;} */
+
 
 .title-cont {
   margin-top: 104px;
@@ -72,6 +72,7 @@ li {
   margin-top: 32px;
   margin-bottom: 92px;
 }
+
 
 .img1-1 {
   width: 255px;
@@ -309,4 +310,5 @@ button {
   margin-top: 19px;
   margin-bottom: 81px;
   border-radius: 3px;
+  cursor: pointer;
 }
